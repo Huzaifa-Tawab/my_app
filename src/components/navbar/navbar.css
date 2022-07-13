@@ -1,0 +1,20 @@
+.navbar *{
+    color: #fff;
+}
+.navbar{
+    background-color: var(--blue);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar a,.navbar button{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    border: none;
+}
+.navbar a:hover,.navbar button:hover{
+    opacity: .8;
+    
+}
